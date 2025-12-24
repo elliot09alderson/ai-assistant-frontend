@@ -1,0 +1,32 @@
+.app-container {
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #646cff, #ff4757);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+p {
+  margin: 5px 0 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+main {
+  flex: 1;
+  position: relative;
+}
